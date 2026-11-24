@@ -80,6 +80,31 @@ const CANDIDATES: Candidate[] = [
     fit: 8,
     tight: 7,
   },
+  // --- Second revision pass: three new challengers, judged the same way. ---
+  {
+    // Legalistic defence; the carpet as jurisdiction.
+    text: "The sock was trespassing. I was simply enforcing the carpet.",
+    funny: 7,
+    original: 8,
+    fit: 8,
+    tight: 9,
+  },
+  {
+    // Self-pitying martyr; one sock makes a villain of the laundry room.
+    text: "I ate one sock. ONE. And now I'm the villain of the laundry room.",
+    funny: 8,
+    original: 7,
+    fit: 9,
+    tight: 8,
+  },
+  {
+    // The sock, thriving inside; a postcard from the dustbin.
+    text: "Somewhere inside me, your sock is living its best life. It sends its regards.",
+    funny: 8,
+    original: 8,
+    fit: 8,
+    tight: 7,
+  },
 ];
 
 function score(c: Candidate): number {
